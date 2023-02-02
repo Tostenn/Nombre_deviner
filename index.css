@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bilan{
+  color: gray;
+  margin-top: 10px;
+  text-align: center;
+}
+.titre{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Sans-Serif ;
+  margin-top: 30px;
+}
+.msg{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  /*border: 1px+ solid  black ;*/
+}
+.msg p{
+  margin-top: 70px;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+  font-size: 30px;
+}
+.posnum{
+  text-align: center;
+  width: 100%;
+}
+label{
+  color: gray;
+  font-weight: bold;
+  font-size: 20px;
+}
+input{
+  width: 80%;
+  text-align: center;
+  font-size: 40px;
+}
+button{
+  width: 80.5%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+  /*background-color: #2cbadd;
+  border: 0;*/
+}
+.pop{
+  width: 100%;
+  position: absolute;
+  background-color: #6b7a7e88;
+  transform: translate(0,-10px);
+  padding-top: 200px;
+  display: none;
+  opacity: 0;
+  transition: all 1s;
+  overflow: hidden;
+}
+.pop-pos{
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+  padding-bottom: 10px;
+  width: 350px;
+  opacity: 0;
+  transition: all 1s;
+}
+.pop-pos img {
+  width: 330px;
+  margin-top: 20px;
+  border-radius: 15px;
+  opacity: 0;
+  transition: all 1s;
+}
+.st{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #2cededdb;
+  text-transform: uppercase;
+}
+.croix{
+  float: right;
+  width: 30px;
+  background-color: black;
+}
+.cr1{
+  width: 3px;
+  height: 20px;
+  /*transform: rotate(35deg);*/
+  background-color: white;
+  display: inline-block;
+  transition: all 2s;
+  opacity: 0;
+}
+.cr2{
+  width: 3px;
+  height: 20px;
+  background-color: white;
+  display: inline-block;
+  /*transform: translate(-7px) rotate(-35deg);*/
+  transition: all 2s;
+  opacity: 0;
+  
+}
+.pup{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
+  transform: translate(0,-70px);
+  letter-spacing: 10px;
+}
+button:hover{
+  transition: all 0.5s;
+  background-color: #6bdaf6;
+  color: white;
+  
+}
